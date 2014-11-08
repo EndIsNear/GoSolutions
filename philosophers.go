@@ -101,7 +101,6 @@ func main() {
 
 	//start the eathinking
 	for _, phil := range philosophers {
-		fmt.Printf("%d\n", phil.num)
 		go phil.Cycle()
 	}
 
